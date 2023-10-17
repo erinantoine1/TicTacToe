@@ -13,11 +13,11 @@ function MainMenu() {
   return (
     <div>
       <Button style={{
-        color: theme.button.color,
-        height: theme.button.height,
-        width: theme.button.width,
-        padding: theme.button.padding,
-        border: theme.button.border,
+        color: theme.blackButton.color,
+        height: theme.blackButton.height,
+        width: theme.blackButton.width,
+        padding: theme.blackButton.padding,
+        border: theme.blackButton.border,
       }} onClick={handleStartButtonClick}>
         New Game
       </Button>
